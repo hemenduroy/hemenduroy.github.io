@@ -19,9 +19,9 @@ function Home2() {
               Let Me <span className="red"> Introduce </span> Myself
             </h1>
             <p className="home-about-body">
-              Since I was a kid, I have loved and excelled in programming, mathematics, natural sciences, data analysis, and problem solving.
+              I'm a Computer Science graduate student at Arizona State University with 2+ years of experience in Software Development, Object-oriented Programming and microservices deployed in the cloud.
               <br />
-              <br />I am experienced in programming languages including
+              <br />I am proficient in programming languages including
               <i>
                 <b className="red"> Java, Python, C++, JavaScript</b>
               </i>
