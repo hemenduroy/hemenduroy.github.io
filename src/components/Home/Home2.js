@@ -7,7 +7,7 @@ import {
   // AiOutlineTwitter,
   // AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaSteam } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -83,6 +83,16 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://steamcommunity.com/id/Th3A/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaSteam />
                 </a>
               </li>
             </ul>
