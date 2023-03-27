@@ -54,7 +54,7 @@ function Projects() {
               isBlog={false}
               title="Scalable Facial Recognition"
               description="This project has been fully implemented in two flavours. First, with an architecture that uses custom AWS EC2 autoscaling and second, a serverless architecture that uses AWS Lambda and Edge Computing to meet high demands."
-              link="https://github.com/hemenduroy/"
+              link="https://github.com/hemenduroy/Scalable-Facial-Recognition"
             />
           </Col>
 
