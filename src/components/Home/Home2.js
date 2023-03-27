@@ -31,7 +31,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              I enjoy building new &nbsp;
               <i>
                 <b className="red">applications </b> that
                 combine seemingly unrelated usecases to generate novel{" "}
