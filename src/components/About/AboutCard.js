@@ -9,19 +9,19 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi, I'm <span className="red">Hemendu Roy </span>
-            from <span className="red"> Tempe, Arizona.</span>
-            <br />I'm a Graduate student, pursuing a <a href="https://degrees.apps.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms">Masters Degree in Computer Science at ASU</a>.
+            from <span className="red"> Scottsdale, Arizona.</span>
+            <br />I'm a Software Engineer, working at <a href="https://www.axon.com/">Axon</a>, a technology company in the public-safety sector. I save lives through code!
             <br />
             <br />
             <br />
-            Apart from coding, these are some other activities that I enjoy:
+            Aside from work, these are some other activities that I enjoy:
           </p>
           <ul>
             <li className="about-activity">
               <ImPointRight /> Hiking
             </li>
             <li className="about-activity">
-              <ImPointRight /> Gaming
+              <ImPointRight /> Gaming (Steam profile link at the bottom!)
             </li>
             <li className="about-activity">
               <ImPointRight /> Listening to Music

@@ -4,8 +4,12 @@ import {
   SiLinux,
   SiVisualstudiocode,
   SiPostman,
-  SiHeroku,
-  SiGithub
+  SiAzuredevops,
+  SiGithub,
+  SiKubernetes,
+  SiApacheairflow,
+  SiDatadog,
+  SiGrafana
 } from "react-icons/si";
 import {
     DiAtlassian,
@@ -19,31 +23,14 @@ import {
     DiTerminal,
     DiUbuntu,
     DiVisualstudio,
-    DiWindows
+    DiWindows,
+    DiGoogleCloudPlatform
 } from "react-icons/di";
 
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiLinux />
-      </Col>
-        <Col xs={4} md={2} className="tech-icons">
-            <DiUbuntu />
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-            <DiTerminal />
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-            <DiWindows />
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-            <SiVisualstudiocode />
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-            <DiVisualstudio />
-        </Col>
         <Col xs={4} md={2} className="tech-icons">
             <DiAws />
         </Col>
@@ -57,25 +44,31 @@ function Toolstack() {
             <SiPostman />
         </Col>
         <Col xs={4} md={2} className="tech-icons">
-            <DiGit />
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-            <SiGithub />
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-            <DiStackoverflow />
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
             <DiDatabase />
         </Col>
         <Col xs={4} md={2} className="tech-icons">
-            <SiHeroku />
+            <SiAzuredevops />
         </Col>
         <Col xs={4} md={2} className="tech-icons">
             <DiMysql />
         </Col>
         <Col xs={4} md={2} className="tech-icons">
             <DiPostgresql />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <DiGoogleCloudPlatform />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <SiKubernetes />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <SiApacheairflow />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <SiDatadog />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <SiGrafana />
         </Col>
     </Row>
   );

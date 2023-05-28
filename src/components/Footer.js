@@ -5,7 +5,7 @@ import {
   // AiOutlineTwitter,
   //AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn,FaSteam } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
@@ -35,6 +35,14 @@ function Footer() {
                 style={{ color: "white" }}
               >
                 <FaLinkedinIn />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://steamcommunity.com/id/Th3A/"
+                style={{ color: "white" }}
+              >
+                <FaSteam />
               </a>
             </li>
           </ul>

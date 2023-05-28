@@ -5,9 +5,9 @@ import {
     DiJavascript1,
     DiReact,
     DiNodejs,
-    DiBootstrap,
+    DiGo,
     DiPython,
-    DiDjango, DiJava, DiRasberryPi
+    DiScala, DiJava, DiRasberryPi
 } from "react-icons/di";
 import {SiJupyter} from "react-icons/si";
 
@@ -30,7 +30,7 @@ function Techstack() {
         <DiPython />
       </Col>
         <Col xs={4} md={2} className="tech-icons">
-            <DiDjango />
+            <DiGo />
         </Col>
         <Col xs={4} md={2} className="tech-icons">
             <SiJupyter />
@@ -39,7 +39,7 @@ function Techstack() {
             <DiJava />
         </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiBootstrap />
+        <DiScala />
       </Col>
         <Col xs={4} md={2} className="tech-icons">
             <DiRasberryPi />
