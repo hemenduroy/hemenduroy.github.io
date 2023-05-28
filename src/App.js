@@ -6,6 +6,7 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
+import WorkExperience from "./components/WorkExperience/WorkExperience";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import "./style.css";
 import "./App.css";
@@ -35,6 +36,7 @@ function App() {
           <Route path="/project" component={Projects} />
           <Route path="/about" component={About} />
           <Route path="/resume" component={Resume} />
+          <Route path="/workexperience" component={WorkExperience} />
         </Switch>
         <Footer />
       </div>

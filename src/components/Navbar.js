@@ -11,9 +11,9 @@ import {
   AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
-  AiOutlineUser,
+  AiOutlineUser
 } from "react-icons/ai";
-
+import { BsBriefcase } from "react-icons/bs"
 import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
@@ -72,6 +72,16 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
+                to="/workexperience"
+                onClick={() => updateExpanded(false)}
+              >
+                <BsBriefcase style={{ marginBottom: "2px" }} /> Work Experience
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
@@ -91,6 +101,7 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
+
 
             <Nav.Item className="fork-btn">
               <Button
