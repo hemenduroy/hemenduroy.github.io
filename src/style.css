@@ -737,3 +737,24 @@ html {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+.vertical-timeline-element-date {
+  color: white;
+  font-size: 1.4rem !important;
+}
+
+.vertical-timeline {
+  padding-top: 70px; /* adjust value as needed */
+}
+
+.vertical-timeline::before {
+  /* this is the vertical line */
+  content: '';
+  position: absolute;
+  top: 70px; /* adjust this value as needed */
+  left: 18px;
+  height: calc(100% - 70px); /* adjust this value as needed */
+  width: 4px;
+  background: var(--line-color);
+}
+

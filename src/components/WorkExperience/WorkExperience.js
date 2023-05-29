@@ -14,7 +14,7 @@ function WorkExperience() {
         className="vertical-timeline-element--work"
         date="June 2023 - Present"
         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-        icon={<img src={AXONCompanyLogo} alt="AXON Company Logo" style={{ width: '100%', height: '100%' }} />}
+        icon={<img src={AXONCompanyLogo} alt="AXON Company Logo" style={{ width: '100%', height: '100%', transform: 'scale(1.2)', transformOrigin: 'center'}} />}
       >
         <h3 className="vertical-timeline-element-title">Software Engineer</h3>
         <h4 className="vertical-timeline-element-subtitle">Axon</h4>
@@ -30,7 +30,7 @@ function WorkExperience() {
         className="vertical-timeline-element--work"
         date="May 2022 - August 2022"
         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-        icon={<img src={AXONCompanyLogo} alt="AXON Company Logo" style={{ width: '100%', height: '100%' }} />}
+        icon={<img src={AXONCompanyLogo} alt="AXON Company Logo" style={{ width: '100%', height: '100%', transform: 'scale(1.2)', transformOrigin: 'center'}} />}
       >
         <h3 className="vertical-timeline-element-title">Software Engineer Intern</h3>
         <h4 className="vertical-timeline-element-subtitle">Axon</h4>
@@ -47,7 +47,7 @@ Responsible for web development using Typescript React, mobile development using
         className="vertical-timeline-element--work"
         date="October 2021 - May 2022"
         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-        icon={<img src={ASUCompanyLogo} alt="ASU Company Logo" style={{ width: '100%', height: '100%' }} />}
+        icon={<img src={ASUCompanyLogo} alt="ASU Company Logo" style={{ width: '100%', height: '100%', transform: 'scale(1.2)', transformOrigin: 'center'}} />}
       >
         <h3 className="vertical-timeline-element-title">Graduate Research Assistant</h3>
         <h4 className="vertical-timeline-element-subtitle">Arizona State University</h4>
@@ -61,7 +61,7 @@ Responsible for web development using Typescript React, mobile development using
         className="vertical-timeline-element--work"
         date="September 2019 - May 2021"
         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-        icon={<img src={ARUBACompanyLogo} alt="ARUBA Company Logo" style={{ width: '100%', height: '100%' }} />}
+        icon={<img src={ARUBACompanyLogo} alt="ARUBA Company Logo" style={{ width: '100%', height: '100%', transform: 'scale(1.2)', transformOrigin: 'center'}} />}
       >
         <h3 className="vertical-timeline-element-title">Software Engineer</h3>
         <h4 className="vertical-timeline-element-subtitle">Aruba, a Hewlett Packard Enterprise company</h4>
@@ -78,7 +78,7 @@ Responsible for web development using Typescript React, mobile development using
         className="vertical-timeline-element--work"
         date="January 2019 - August 2019"
         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-        icon={<img src={ARUBACompanyLogo} alt="ARUBA Company Logo" style={{ width: '100%', height: '100%' }} />}
+        icon={<img src={ARUBACompanyLogo} alt="ARUBA Company Logo" style={{ width: '100%', height: '100%', transform: 'scale(1.2)', transformOrigin: 'center'}} />}
 
       >
         <h3 className="vertical-timeline-element-title">Cloud Engineer Intern</h3>
