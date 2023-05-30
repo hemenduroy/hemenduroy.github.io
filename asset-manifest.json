@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.86c242ae.chunk.css",
-  "main.js": "/static/js/main.57e229fb.chunk.js",
-  "main.js.map": "/static/js/main.57e229fb.chunk.js.map",
+  "main.js": "/static/js/main.08de279f.chunk.js",
+  "main.js.map": "/static/js/main.08de279f.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.bd1d875c.js",
   "runtime~main.js.map": "/static/js/runtime~main.bd1d875c.js.map",
   "static/css/2.0d493b7a.chunk.css": "/static/css/2.0d493b7a.chunk.css",
@@ -12,7 +12,7 @@
   "static/js/4.6df23a85.chunk.js": "/static/js/4.6df23a85.chunk.js",
   "static/js/4.6df23a85.chunk.js.map": "/static/js/4.6df23a85.chunk.js.map",
   "index.html": "/index.html",
-  "precache-manifest.d32ae219c7a75705eadbcd84340f7563.js": "/precache-manifest.d32ae219c7a75705eadbcd84340f7563.js",
+  "precache-manifest.3cb420bfaf5ba6c23e79bfe03936bdb7.js": "/precache-manifest.3cb420bfaf5ba6c23e79bfe03936bdb7.js",
   "service-worker.js": "/service-worker.js",
   "static/css/2.0d493b7a.chunk.css.map": "/static/css/2.0d493b7a.chunk.css.map",
   "static/css/main.86c242ae.chunk.css.map": "/static/css/main.86c242ae.chunk.css.map",
@@ -22,7 +22,7 @@
   "static/media/Facial_Recognition.png": "/static/media/Facial_Recognition.7f24a6de.png",
   "static/media/Smart_Home_Gesture_Recognition.png": "/static/media/Smart_Home_Gesture_Recognition.4e74d3b4.png",
   "static/media/about.png": "/static/media/about.a0c5ace0.png",
-  "static/media/avatar.jpg": "/static/media/avatar.a2fc495b.jpg",
+  "static/media/avatar.jpg": "/static/media/avatar.d6358815.jpg",
   "static/media/style.css": "/static/media/pre.0914d4e9.svg",
   "static/media/home-main.svg": "/static/media/home-main.27f9ac5a.svg",
   "static/media/resume.pdf": "/static/media/resume.6ec29e2e.pdf"
