@@ -19,7 +19,7 @@ function Home2() {
               Let Me <span className="red"> Introduce </span> Myself
             </h1>
             <p className="home-about-body">
-              I'm a Computer Science graduate student at Arizona State University with 2+ years of experience in Software Development, Object-oriented Programming and microservices deployed in the cloud.
+              I'm a Software Engineer at Axon Enterprise with 3+ years of experience in Software Development, Object-oriented Programming and microservices deployed in the cloud.
               <br />
               <br />I am proficient in programming languages including
               <i>
@@ -31,7 +31,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              I enjoy building new &nbsp;
+              I enjoy building new&nbsp;
               <i>
                 <b className="red">applications </b> that
                 combine seemingly unrelated usecases to generate novel{" "}
@@ -48,8 +48,10 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="red"> Python and as of late, the ChatGPT API.</b>
+                <b className="red"> Python </b>
               </i>
+              and as of late, the <b className="red"> ChatGPT API.</b>
+
             </p>
           </Col>
           <Col md={4} className="myAvatar">
