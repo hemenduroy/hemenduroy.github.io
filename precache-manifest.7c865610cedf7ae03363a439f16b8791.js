@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b83064f23cc736beb812",
+    "revision": "ff6aaea814e160d72e46",
     "url": "/static/css/main.86c242ae.chunk.css"
   },
   {
-    "revision": "b83064f23cc736beb812",
-    "url": "/static/js/main.70d2e6c7.chunk.js"
+    "revision": "ff6aaea814e160d72e46",
+    "url": "/static/js/main.fe616735.chunk.js"
   },
   {
     "revision": "c868f8c5b29d14e1237e",
@@ -34,6 +34,10 @@ self.__precacheManifest = [
   {
     "revision": "10a5e6d579b310d8cbbd3594fd3ee4bf",
     "url": "/static/media/ARUBA_Company_logo.10a5e6d5.jpeg"
+  },
+  {
+    "revision": "5a1ec05d606fae4c3177bf2143a396cf",
+    "url": "/static/media/logo.5a1ec05d.png"
   },
   {
     "revision": "27f9ac5ae8912f3a74bd4e02ebcab924",
@@ -72,7 +76,7 @@ self.__precacheManifest = [
     "url": "/static/media/home-bg.01918cad.jpg"
   },
   {
-    "revision": "31e174e8fa81ad384abb8a6595c96024",
+    "revision": "a848838fb3d2de105596cd83db896866",
     "url": "/index.html"
   }
 ];
