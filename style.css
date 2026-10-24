@@ -15,8 +15,11 @@ ul{list-style:none;padding:0}
 h1{font:400 clamp(44px,8vw,72px)/1 var(--serif);letter-spacing:-.01em}
 .lede{max-width:52ch;margin-top:20px;font-size:18px;color:var(--mute)}
 .lede b{color:var(--fg);font-weight:500}
-nav{display:flex;gap:20px;flex-wrap:wrap;margin-top:28px;font:13px var(--mono)}
-nav a{text-decoration:none;border-bottom:1px solid var(--accent);color:var(--accent)}
+nav{display:flex;gap:10px;flex-wrap:wrap;margin-top:28px;font:500 13px var(--mono)}
+nav a{display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border:1px solid var(--line);border-radius:6px;text-decoration:none;transition:border-color .15s,color .15s}
+nav a:hover{border-color:var(--accent);color:var(--accent)}
+nav a:first-child{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+nav a:first-child:hover{background:var(--accent);border-color:var(--accent);color:var(--bg)}
 section{margin-top:64px;display:grid;grid-template-columns:140px minmax(0,1fr);gap:16px 32px}
 h2{font:400 12px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--mute);padding-top:5px}
 .row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 24px;padding-block:14px;border-top:1px solid var(--line)}
@@ -29,3 +32,16 @@ h2{font:400 12px var(--mono);letter-spacing:.08em;text-transform:uppercase;color
 .row h3 a:hover{text-decoration-color:var(--accent)}
 .stack{color:var(--mute);font:13px/1.8 var(--mono)}
 @media(max-width:620px){section{grid-template-columns:1fr}main{padding-top:48px}}
+.row h3 a::after{content:"";display:inline-block;width:.8em;height:.8em;margin-left:.4em;background:var(--mute);-webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M7 17L17 7M8 7h9v9'/%3E%3C/svg%3E") center/contain no-repeat;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M7 17L17 7M8 7h9v9'/%3E%3C/svg%3E") center/contain no-repeat;transition:background .15s}
+.row h3 a:hover::after{background:var(--accent)}
+.logo{width:1em;height:1em;border-radius:3px;vertical-align:-.15em;margin-right:.4em}
+.group{padding-top:14px;border-top:1px solid var(--line)}
+.group:last-child{border-bottom:1px solid var(--line);padding-bottom:6px}
+.co{font-size:17px;font-weight:600}
+.co span{font-weight:400;color:var(--mute)}
+.roles{position:relative;margin-top:4px;padding-left:22px}
+.roles::before{content:"";position:absolute;left:4px;top:18px;bottom:22px;width:1px;background:var(--line)}
+.role{border:0!important;padding-block:8px}
+.role h3{position:relative}
+.role h3::before{content:"";position:absolute;left:-22px;top:.5em;width:9px;height:9px;border-radius:50%;background:var(--bg);border:1.5px solid var(--mute);box-sizing:border-box}
+.role:first-child h3::before{background:var(--accent);border-color:var(--accent)}
