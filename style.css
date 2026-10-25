@@ -4,7 +4,7 @@
   --serif:"Instrument Serif",Georgia,serif;
   --sans:"Hanken Grotesk",system-ui,sans-serif;
 }
-@media (prefers-color-scheme:dark){:root{--bg:#0f1112;--fg:#e8e8e4;--mute:#8d9093;--line:#26292b;--accent:#8fc4b2;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0f1112;--fg:#e8e8e4;--mute:#8d9093;--line:#26292b;--accent:#8fc4b2;color-scheme:dark}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 var(--sans);-webkit-font-smoothing:antialiased}
 main{max-width:860px;margin:0 auto;padding:72px 20px 96px}
@@ -45,3 +45,11 @@ h2{font:400 12px var(--mono);letter-spacing:.08em;text-transform:uppercase;color
 .role h3{position:relative}
 .role h3::before{content:"";position:absolute;left:-22px;top:.5em;width:9px;height:9px;border-radius:50%;background:var(--bg);border:1.5px solid var(--mute);box-sizing:border-box}
 .role:first-child h3::before{background:var(--accent);border-color:var(--accent)}
+
+main{position:relative}
+.theme{position:absolute;top:24px;right:20px;display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;padding:0;border:1px solid var(--line);border-radius:6px;background:none;color:var(--fg);cursor:pointer;transition:border-color .15s,color .15s}
+.theme:hover{border-color:var(--accent);color:var(--accent)}
+.theme:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.theme .moon{display:none}
+:root[data-theme="dark"] .theme .sun{display:none}
+:root[data-theme="dark"] .theme .moon{display:block}
